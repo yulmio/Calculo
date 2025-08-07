@@ -1,0 +1,7 @@
+PRIMERo es el install.sh
+
+
+
+Luego el CreadorDeApp
+chmod +x CreacionDeDesktop.sh tienes que drle permisos
+sudo ./CreacionDeDesktop.sh SI NO SUDO NO PODRAS HACERLO CORRECTAMENTE
