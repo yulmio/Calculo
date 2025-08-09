@@ -3,7 +3,7 @@ public class Calculadora {
 
 	public static void main(String[] args) {
 		System.out.println("");
-		JOptionPane.showMessageDialog(null, "Opción 1: Sumar\nOpción 2:  Restar\nOpción 3: Multiplicar\nOpción 4: Dividir\nOpción 5: Resto\nOpción 6: Potencia\nOpción 7: Raíces cuadradas");
+		JOptionPane.showMessageDialog(null, "Opción 1: Sumar\nOpción 2:  Restar\nOpción 3: Multiplicar\nOpción 4: Dividir\nOpción 5: Resto\nOpción 6: Potencia\nOpción 7: Raíces cuadradas enteras\nOpción 8: Raíces cuadradas exactas");
 		int peticion = Integer.parseInt(JOptionPane.showInputDialog(null, "Introduce el numero de opción de la operación aritmética que deseas: "));
 		
 		if (peticion == 1) {
@@ -54,6 +54,11 @@ public class Calculadora {
 			JOptionPane.showMessageDialog(null, "El resultado es : " + peticionFinal);
 		}
 		
+		if (peticion == 8) {
+			double peticionPOE1 = Double.parseDouble(JOptionPane.showInputDialog(null, "Seleccionaste Raíz cuadrada exacta, introduce el dígito"));
+			double peticionFinal = Math.sqrt(peticionPOE1);
+			JOptionPane.showMessageDialog(null, "El resultado es : " + peticionFinal);
+		}
 		
 		
 		
